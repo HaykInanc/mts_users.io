@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: darkblue;
+}
+
+#root{
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	font-size: 25px
+}
+
+.user{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	outline: 2px solid white;
+	min-width: 1000px
+}
+
+.user div{
+	min-width: 400px;
+	
+}
+
+.user p{
+	padding: 5px;
+	margin: 0;
+	display: inline-block;
+}
+
+.user p:first-child{
+	border-bottom: 2px solid white;
+	min-width: 700px;
+}
